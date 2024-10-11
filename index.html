@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+    <title>Resturent website</title>
+  </head>
+  <body>
+    <header>
+      <div id="prenav-text">
+        <div class="flex-row">
+          <div class="contact-info">
+            Phone no: <span>+94 7755 13333</span> or email us:
+            <span>codeblocks@gmail.com</span>
+          </div>
+          <div class="opening-times flex-row">
+            Mon - Fri / 9:00-21:00. Sat - Sun / 10:00-20:00
+            <ul class="social-links flex-row">
+              <li>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="navbar" class="navbar flex-row">
+        <div class="nav-icon menu-btn-wrapper">
+          <i class="menu-btn bx bx-menu" id="menu-btn"></i>
+        </div>
+        <div class="logo">
+          <h5>Library.<span>M</span></h5>
+        </div>
+        <ul class="nav-items" id="nav-items">
+          <li><a href="#home" class="nav-links">HOME</a></li>
+          <li><a href="#about" class="nav-links">ABOUT</a></li>
+          <li><a href="#features" class="nav-links">FEATURES</a></li>
+          <li><a href="#features" class="nav-links">DISCOUNT</a></li>
+          <li><a href="#gallery" class="nav-links">NEW BOOK</a></li>
+          <li><a href="#blogs" class="nav-links">BLOG</a></li>
+          <li><a href="#footer" class="nav-links">CONTACT</a></li>
+        </ul>
+        <ul class="nav-btns">
+          <div class="search-btn-wrapper nav-icon">
+            <i class="searchbtn bx bx-search-alt-2"></i>
+            <div class="search-form" id="search-form">
+              <form action="#">
+                <input
+                  type="search"
+                  class="search-data"
+                  placeholder="Search"
+                  required
+                />
+                <button type="submit" class="bx bx-search-alt-2"></button>
+              </form>
+            </div>
+          </div>
+          <div class="cart-btn-wrapper nav-icon">
+            <i class="cartbtn bx bx-cart"></i>
+            <div class="cart flex-row" id="cart">
+              <span>No Products In The Cart</span>
+            </div>
+          </div>
+          <div class="nav-icon">
+            <i class="darkbtn bx bx-moon"></i>
+          </div>
+        </ul>
+      </div>
+    </header>
+    <section id="home">
+      <div class="home-carousel owl-carousel owl-theme">
+        <div class="slide slide1">
+          <div class="content">
+            <p class="sub-heading">LIBRARY MANAGEMENT</p>
+            <h1 class="heading">Best Quality</h1>
+
+            <div class="square-wrapper flex-row">
+              <div class="square"></div>
+              <p class="sub-heading-2">BOOK</p>
+              <div class="square"></div>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide2">
+          <div class="content">
+            <p class="sub-heading">LIBRARY MANAGEMENT</p>
+            <h1 class="heading">Good Product</h1>
+
+            <div class="square-wrapper flex-row">
+              <div class="square"></div>
+              <p class="sub-heading-2">1989</p>
+              <div class="square"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="flex-row">
+      <div class="booking-form">
+        <span>book club </span>
+        <h2>membership form</h2>
+        <form action="#">
+          <input type="text" class="name" placeholder="Name" />
+          <input type="text" class="email" placeholder="Email" />
+          <input type="text" class="phone" placeholder="Phone" />
+          <input type="date" class="date" placeholder="Date" />
+          <input type="time" class="time" placeholder="Time" />
+          <textarea name="msg" id="msg">Massage</textarea>
+          <a href="#" type="submit" class="btn1">Register</a>
+        </form>
+      </div>
+      <div class="text-wrapper">
+        <h1>Nipuni Kahawaththa</h1>
+        <h3>Librarian</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+          Nam corporis explicabo esse harum quia placeat.
+        </p>
+      </div>
+      <div class="img-wrapper">
+        <img src="images/About/back-school.png" alt="#" />
+      </div>
+    </section>
+    <section id="quote">
+      <div class="text-wrapper">
+        <h2>Now Open</h2>
+        <h1>Reading maketh a full man</h1>
+      </div>
+    </section>
+    <section id="features" class="menu-section">
+      <div class="section-heading">
+        <h3>Special Books</h3>
+        <h1>From Our Library</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+      <div class="menu-tabs flex-row">
+        <div class="menu-tab-item active" data-target="#Fantasy">
+          <i class="bx bxs-book"></i>
+          <span>Fantasy</span>
+        </div>
+        <div class="menu-tab-item" data-target="#Thriller">
+          <i class="bx bx-book-bookmark"></i>
+          <span>Thriller</span>
+        </div>
+        <div class="menu-tab-item" data-target="#Romancenovel">
+          <i class="bx bxs-book-alt"></i>
+          <span>Romance novel</span>
+        </div>
+        <div class="menu-tab-item" data-target="#Horror">
+          <i class="bx bxs-book"></i>
+          <span>Horror</span>
+        </div>
+      </div>
+      <div id="Fantasy" class="menu-tab-content show">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Fantasy/img-1.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>A Game of Thrones</h2>
+                <div class="line"></div>
+                <span class="price">$99</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Fantasy/img-2.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>The Golem and the Jinni</h2>
+                <div class="line"></div>
+                <span class="price">$29</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Fantasy/img-3.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>The Way of Kings</h2>
+                <div class="line"></div>
+                <span class="price">$39.99</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Fantasy/img-4.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Bookshops & Bonedust</h2>
+                <div class="line"></div>
+                <span class="price">$35</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Fantasy/img-5.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Foundryside</h2>
+                <div class="line"></div>
+                <span class="price">$39</span>
+              </div>
+              <div class="desc">
+                <p>Order Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Fantasy/img-6.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Six of Crows</h2>
+                <div class="line"></div>
+                <span class="price">$49</span>
+              </div>
+              <div class="desc">
+                <p>Order Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Thriller" class="menu-tab-content">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Thriller/img-1.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>The Housemaid</h2>
+                <div class="line"></div>
+                <span class="price">$49</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Thriller/img-2.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Verity</h2>
+                <div class="line"></div>
+                <span class="price">$59</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Thriller/img-3.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Before I Go to Sleep</h2>
+                <div class="line"></div>
+                <span class="price">$45.99</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Thriller/img-4.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Lock Every Door</h2>
+                <div class="line"></div>
+                <span class="price">$69</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Romancenovel" class="menu-tab-content">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/romance novel/img-1.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Fifty Shades Of Grey</h2>
+                <div class="line"></div>
+                <span class="price">$29</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/romance novel/img-2.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>It Ends with Us</h2>
+                <div class="line"></div>
+                <span class="price">$39</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/romance novel/img-3.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>The Hating Game: A Novel</h2>
+                <div class="line"></div>
+                <span class="price">$59</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/romance novel/img-4.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Seven Days in June</h2>
+                <div class="line"></div>
+                <span class="price">$49</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Horror" class="menu-tab-content">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Horror/img-1.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Frankenstein</h2>
+                <div class="line"></div>
+                <span class="price">$89.99</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Horror/img-2.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Dracula</h2>
+                <div class="line"></div>
+                <span class="price">$29</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Horror/img-3.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>The Haunting of Hill House</h2>
+                <div class="line"></div>
+                <span class="price">$43</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="/images/features/Horror/img-4.jpg" alt="#" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>World War Z</h2>
+                <div class="line"></div>
+                <span class="price">$79</span>
+              </div>
+              <div class="desc">
+                <p>Oder Now.</p>
+              </div>
+              <div class="rating">
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+                <i class="icon bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <a href="#" class="btn2">View More Books</a>
+      </div>
+    </section>
+
+    <section id="events">
+      <div class="section-heading">
+        <h1>Book Reading Events</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+      <div class="events-carousel owl-carousel owl-theme">
+        <a href="#" class="event-item">
+          <h4 class="event-name">Crime & Wine with Susie Dent</h4>
+          <span class="details"
+            ><i class="icon bx bx-calendar"></i>2023-01-01</span
+          >
+          <span class="details"><i class="icon bx bx-time-five"></i>08:00</span>
+          <span class="details"
+            ><i class="icon bx bxs-location-plus"></i>Colombo, Sri Lanka</span
+          >
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            perferendis, voluptates, natus cumque dolor accusamus placeat
+            commodi voluptate quos labore numquam deserunt, obcaecati nobis
+            incidunt error voluptas molestias! Quis, tempora!
+          </p>
+          <div class="event-mark"></div>
+        </a>
+        <a href="#" class="event-item">
+          <h4 class="event-name">Author of House of Roots and Ruin</h4>
+          <span class="details"
+            ><i class="icon bx bx-calendar"></i>2024-12-25</span
+          >
+          <span class="details"><i class="icon bx bx-time-five"></i>12:00</span>
+          <span class="details"
+            ><i class="icon bx bxs-location-plus"></i>Colombo, Sri Lanka</span
+          >
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            perferendis, voluptates, natus cumque dolor accusamus placeat
+            commodi voluptate quos labore numquam deserunt, obcaecati nobis
+            incidunt error voluptas molestias! Quis, tempora!
+          </p>
+          <div class="event-mark"></div>
+        </a>
+        <a href="#" class="event-item">
+          <h4 class="event-name">Author of Simply Delishaas</h4>
+          <span class="details"
+            ><i class="icon bx bx-calendar"></i>2025-01-01</span
+          >
+          <span class="details"><i class="icon bx bx-time-five"></i>15:00</span>
+          <span class="details"
+            ><i class="icon bx bxs-location-plus"></i>Colombo, Sri Lanka</span
+          >
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            perferendis, voluptates, natus cumque dolor accusamus placeat
+            commodi voluptate quos labore numquam deserunt, obcaecati nobis
+            incidunt error voluptas molestias! Quis, tempora!
+          </p>
+          <div class="event-mark"></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="section-heading">
+        <h3>Our Gallery</h3>
+        <h1>New Books</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+      <div class="gallery-wrapper flex-row">
+        <a class="gallery-img" href="/images/Gallery/img-1.jpg">
+          <img src="/images/Gallery/img-1.jpg" alt="#" />
+          <div class="overlay">
+            <i class="icon bx bx-search"></i>
+          </div>
+        </a>
+        <a class="gallery-img" href="/images/Gallery/img-2.jpg">
+          <img src="/images/Gallery/img-2.jpg" alt="#" />
+          <div class="overlay">
+            <i class="icon bx bx-search"></i>
+          </div>
+        </a>
+        <a class="gallery-img" href="/images/Gallery/img-3.jpg">
+          <img src="/images/Gallery/img-3.jpg" alt="#" />
+          <div class="overlay">
+            <i class="icon bx bx-search"></i>
+          </div>
+        </a>
+        <a class="gallery-img" href="/images/Gallery/img-4.jpg">
+          <img src="/images/Gallery/img-4.jpg" alt="#" />
+          <div class="overlay">
+            <i class="icon bx bx-search"></i>
+          </div>
+        </a>
+        <a class="gallery-img" href="/images/Gallery/img-5.jpg">
+          <img src="/images/Gallery/img-5.jpg" alt="#" />
+          <div class="overlay">
+            <i class="icon bx bx-search"></i>
+          </div>
+        </a>
+        <a class="gallery-img" href="/images/Gallery/img-6.jpg">
+          <img src="/images/Gallery/img-6.jpg" alt="#" />
+          <div class="overlay">
+            <i class="icon bx bx-search"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="team">
+      <div class="section-heading">
+        <h3>Team Of Library</h3>
+        <h1>Meet Our Librarian</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+      <div class="team-carousel owl-carousel owl-theme">
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img src="/images/Team/smiling-young-male.jpg" alt="#" />
+          </div>
+          <div class="text-wrapper">
+            <h4 class="name">Laura Frankie</h4>
+            <h5 class="desc">Assistant Manager</h5>
+          </div>
+          <ul class="social-links flex-col">
+            <li>
+              <a href="#"><i class="icon bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img
+              src="/images/Team/young-smiling-caucasian-cook-girl.jpg"
+              alt="#"
+            />
+          </div>
+          <div class="text-wrapper">
+            <h4 class="name">Niky Frannky</h4>
+            <h5 class="desc">Assistant</h5>
+          </div>
+          <ul class="social-links flex-col">
+            <li>
+              <a href="#"><i class="icon bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img src="/images/Team/professional-male-chef-cook.jpg" alt="#" />
+          </div>
+          <div class="text-wrapper">
+            <h4 class="name">Sam Stoke</h4>
+            <h5 class="desc">Manager</h5>
+          </div>
+          <ul class="social-links flex-col">
+            <li>
+              <a href="#"><i class="icon bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="section-heading">
+        <h3>Testimonials</h3>
+        <h1>What Clients Say</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+      <div class="review-carousel owl-carousel owl-theme">
+        <div class="review-item">
+          <div class="container">
+            <div class="img-box">
+              <img src="/images/Reviews/young-handsome-man.jpg" alt="#" />
+            </div>
+            <div class="text-holder">
+              <h4 class="name">Naveen Perera</h4>
+              <h5 class="desc">CEO</h5>
+            </div>
+          </div>
+          <p class="comment">
+            “Great Customer Service and very good collection of books and
+            journals... well done... keep it up.”
+          </p>
+          <div class="rating">
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="container">
+            <div class="img-box">
+              <img src="/images/Reviews/happy-confident.jpg" alt="#" />
+            </div>
+            <div class="text-holder">
+              <h4 class="name">Rosha Perera</h4>
+              <h5 class="desc">General Manager</h5>
+            </div>
+          </div>
+          <p class="comment">
+            “Great Customer Service and very good collection of books and
+            journals... well done... keep it up.”
+          </p>
+          <div class="rating">
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="container">
+            <div class="img-box">
+              <img src="/images/Reviews/front-view.jpg" alt="#" />
+            </div>
+            <div class="text-holder">
+              <h4 class="name">Jays Pradeep</h4>
+              <h5 class="desc">Librarian</h5>
+            </div>
+          </div>
+          <p class="comment">
+            “Great Customer Service and very good collection of books and
+            journals... well done... keep it up.”
+          </p>
+          <div class="rating">
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="container">
+            <div class="img-box">
+              <img src="/images/Reviews/portrait-smiling.jpg" alt="#" />
+            </div>
+            <div class="text-holder">
+              <h4 class="name">Thilina Madusanka</h4>
+              <h5 class="desc">CEO Food Specialist</h5>
+            </div>
+          </div>
+          <p class="comment">
+            “This is always our breakfast stop before heading home from
+            vacation. Always delicious. Always great service. Always worth the
+            stop.”
+          </p>
+          <div class="rating">
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+            <i class="icon bx bxs-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blogs">
+      <div class="section-heading">
+        <h3>Our Recipe</h3>
+        <h1>Chef's Recommended</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+      <div class="blog-carousel owl-carousel owl-theme">
+        <a href="#" class="blog-post">
+          <div class="img-wrapper">
+            <img src="/images/Blog/img-1.png" alt="#" />
+            <div class="overlay"><i class="icon bx bx-link"></i></div>
+          </div>
+          <div class="text-wrapper">
+            <h5 class="blog-title">The Load Of Rins Book Collection</h5>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+              beatae.
+            </p>
+            <p class="time">
+              <i class="icon bx bxs-book"></i>Books: <span>3</span>
+            </p>
+          </div>
+        </a>
+        <a href="#" class="blog-post">
+          <div class="img-wrapper">
+            <img src="/images/Blog/img-2.jpg" alt="#" />
+            <div class="overlay"><i class="icon bx bx-link"></i></div>
+          </div>
+          <div class="text-wrapper">
+            <h5 class="blog-title">Harry Potter Book Collection</h5>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+              beatae.
+            </p>
+            <p class="time">
+              <i class="icon bx bxs-book"></i>Books: <span>7</span>
+            </p>
+          </div>
+        </a>
+        <a href="#" class="blog-post">
+          <div class="img-wrapper">
+            <img src="/images/Blog/img-3.jpg" alt="#" />
+            <div class="overlay"><i class="icon bx bx-link"></i></div>
+          </div>
+          <div class="text-wrapper">
+            <h5 class="blog-title">Game of Thrones Book Collection</h5>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+              beatae.
+            </p>
+            <p class="time">
+              <i class="icon bx bxs-book"></i>Books: <span>7</span>
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="footer-quote">
+      <h1>Reading maketh a full man</h1>
+      <a href="#" class="btn3">Order Now</a>
+    </section>
+    <footer id="footer">
+      <div class="footer-top flex-row">
+        <div class="flex-col">
+          <h4 class="logo-name">Library.M</h4>
+          <p class="desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad aliquam
+            ab amet cupiditate beatae at.
+          </p>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="icon bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon bx bxl-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-col">
+          <h4 class="heading">ADDRESS</h4>
+          <p class="desc">Colombo,<br />Sri Lanka</p>
+          <p class="desc">TP: +9477 55 12361<br />E: codeblocks@gmail.com</p>
+        </div>
+        <div class="flex-col">
+          <h4 class="heading">OPEN HOURS</h4>
+          <ul class="timings flex-col">
+            <li>
+              <p class="days">Monday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+            <li>
+              <p class="days">Tuesday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+            <li>
+              <p class="days">Wednesday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+            <li>
+              <p class="days">Thursday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+            <li>
+              <p class="days">Friday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+            <li>
+              <p class="days">Saturday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+            <li>
+              <p class="days">Sunday</p>
+              <div class="time">9:00 - 17:00</div>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-col">
+          <h4 class="heading">MOREINFO</h4>
+          <a href="#menu">Features</a>
+          <a href="#about">About</a>
+          <a href="#about">Details</a>
+          <a href="#blogs">Blogs</a>
+        </div>
+      </div>
+      <div class="footer-bottom flex-row">
+        <span>Create by code blocks | all rights reserved</span>
+      </div>
+    </footer>
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+      lightGallery(document.querySelector(".gallery-wrapper"));
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>
