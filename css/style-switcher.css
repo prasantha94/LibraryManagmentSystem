@@ -72,3 +72,12 @@
   .style-switcher .color-5{
       background: #f021b2;
   }
+  @media (max-width: 780px) {
+    .style-switcher {
+        position: flex;
+        right: -35px;
+        top: 10px;
+        padding: 15px;
+   
+      }
+  }
